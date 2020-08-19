@@ -105,6 +105,13 @@ class ConnectedDetails extends Component {
             >
               Price: {this.state.item.price} $
             </div>
+			<div
+              style={{
+                fontSize: 16
+              }}
+            >
+              Stock: {this.state.item.stock} 
+            </div>
             {this.state.item.popular && (
               <div style={{ fontSize: 14, marginTop: 5, color: "#228B22" }}>
                 (Popular product)

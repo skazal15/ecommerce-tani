@@ -39,7 +39,8 @@ class ConnectedItem extends Component {
             >
               {this.props.item.name}
             </div>
-            <div style={{ margin: 5 }}>Price: {this.props.item.price} $</div>
+            <div style={{ margin: 2 }}>Price: {this.props.item.price} $</div>
+			<div style={{ margin: 2 }}>Stock: {this.props.item.stock}</div>
             <div style={{ color: "#1a9349", fontWeight: "bold", margin: 5 }}>
               {this.props.item.popular && "Popular"}
             </div>

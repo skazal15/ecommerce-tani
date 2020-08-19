@@ -5,6 +5,7 @@ const sampleProducts = [
     name: "Nike Air Presto",
     category: "Clothing and Shoes",
     price: 55,
+	stock:12,
     description:
       "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
     popular: true,
@@ -12,12 +13,14 @@ const sampleProducts = [
       "https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/wokkcny4zbhvzobfwc7i/air-presto-womens-shoe-89Tqz1nG.jpg",
       "https://media.hypedc.com/media/catalog/product/cache/1/image/750x/9df78eab33525d08d6e5fb8d27136e95/_/o/_o8a4329_2.jpg"
     ]
+	
   },
   {
     id: 2,
     name: "Casio F-91W-1XY",
     category: "Jewelry and Watches",
     price: 101,
+	stock:12,
     description:
       "Shaped in an iconic casio design, this watch features a digital display, stopwatch and an LED backlight. The watch is housed in a durable resin case. Suitable for everyday styling.",
 
@@ -32,7 +35,7 @@ const sampleProducts = [
     name: "Seiko Silvertone Black Dial Solar Calendar Watch",
     category: "Jewelry and Watches",
     price: 200,
-
+	stock:12,
     popular: false,
     imageUrls: [
       "https://images-na.ssl-images-amazon.com/images/I/81XUKQex4nL._UY445_.jpg",
@@ -44,6 +47,7 @@ const sampleProducts = [
     name: "Harry Potter",
     category: "Books",
     price: 102,
+	stock:12,
     description:
       "Harry Potter is an ordinary boy who lives in a cupboard under the stairs at his Aunt Petunia" +
       "and Uncle Vernon's house, which he thinks is normal for someone like him who's parents have been killed in" +
@@ -61,6 +65,7 @@ const sampleProducts = [
     name: "DELL SE2717HR",
     category: "Computers",
     price: 102,
+	stock:12,
     description:
       "Amazing angles: Share consistent high-color fidelity with In-Plane Switching (IPS) technology across a 27-inch diagonal screen. A stunning vantage point for everyone, from almost anywhere" +
       "Distinctively modern and accessible: The contemporary thin profile is enhanced by the modern white and silver colors.The open wedge stand design provides convenient access to VGA and dual HDMI ports",
@@ -77,6 +82,7 @@ const sampleProducts = [
     name: "Swatch Skin",
     category: "Jewelry and Watches",
     price: 200,
+	stock:12,
     description: "",
     popular: false,
     imageUrls: [
@@ -88,6 +94,7 @@ const sampleProducts = [
     name: "Adidas Gazelle",
     category: "Clothing and Shoes",
     price: 55,
+	stock:12,
     description: "",
     popular: false,
     imageUrls: [
@@ -100,6 +107,7 @@ const sampleProducts = [
     name: "Bluetooth Keyboard, Vive Comb Rechargeable",
     category: "Computers",
     price: 55,
+	stock:12,
     description: "",
     popular: false,
     imageUrls: [
@@ -111,6 +119,7 @@ const sampleProducts = [
     name: "Swatch Blue Suit Mens Watch YGS747 Wrist Watch",
     category: "Jewelry and Watches",
     price: 120,
+	stock:12,
     description: "",
 
     popular: false,
@@ -123,6 +132,7 @@ const sampleProducts = [
     name: "DELL 23 S2340L 1920X1080 FULL HD",
     category: "Computers",
     price: 220,
+	stock:12,
     description:
       "This Certified Refurbished product is tested and certified to look and work like new. The refurbishing process includes functionality testing, basic cleaning, inspection, and repackaging. The product ships with all relevant accessories, a minimum 90-day warranty, and may arrive in a generic box. Only select sellers who maintain a high performance bar may offer Certified Refurbished products on Amazon.com",
     popular: false,
@@ -135,6 +145,7 @@ const sampleProducts = [
     name: "Invicta Men's Pro Diver Collection Watch -Black",
     category: "Jewelry and Watches",
     price: 130,
+	stock:12,
     description:
       "Water resistant to 200 m (660 ft): In general, suitable for professional marine activity and serious surface water sports, but not scuba diving",
 
